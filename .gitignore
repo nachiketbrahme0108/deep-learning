@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Hidden files
+.hidden
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environment
+venv/
+env/
+.env/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+llm-engineering/.env
+
+# Gradio files
+.gradio/
+
+# Chroma database
+llm-engineering/5. retrieval-augmented-generation/vector_db/
+llm-engineering/5. retrieval-augmented-generation/preprocessed_db/
+llm-engineering/8. agentic-ai-introduction/products_vectorstore/
+llm-engineering/8. agentic-ai-introduction/*.toml
+llm-engineering/8. agentic-ai-introduction/*.pth
+llm-engineering/8. agentic-ai-introduction/memory.json
