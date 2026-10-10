@@ -26,7 +26,7 @@ A **shallow neural network** typically consists of an input layer, a single hidd
 - **Activation Functions:** Sigmoid, tanh, ReLU, Leaky ReLU, etc.
 - **Non-linearity:** Essential for modeling complex functions.
 
-For detailed explanations, see [`shallow-neural-network/README.md`](shallow-neural-network/README.md).
+For detailed explanations, see [`01-shallow-neural-network/README.md`](01-shallow-neural-network/README.md).
 
 ## Deep Neural Network
 
@@ -46,4 +46,4 @@ A **deep neural network (DNN)** is an extension of shallow networks with multipl
 - Hidden layers: $a^{[l]} = g(W^{[l]}a^{[l-1]} + b^{[l]})$ for $l = 1, 2, ..., L$
 - Output: $a^{[L+1]}$
 
-For detailed explanations, see [`deep-neural-network/README.md`](deep-neural-network/README.md).
+For detailed explanations, see [`02-deep-neural-network/README.md`](02-deep-neural-network/README.md).
